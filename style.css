@@ -25,13 +25,12 @@
 
 	/* Size */
 	width: 90%;
-	height: 200px;
 
 	/* Border */
 	border-radius: 1.2rem;
 
 	/* Spacing */
-	padding: 2rem 2.5rem;
+	padding: 1rem;
 
 	/* Typography */
 	font-family: var(--poppins);
@@ -39,37 +38,52 @@
 }
 
 .cookie {
-	width: 200px;
+	/* Size */
+	width: 55px;
 	height: auto;
+
+	/* Display */
+	overflow: visible;
 }
 
 .cookie-title {
+	/* Typography */
 	font-size: 1.2rem;
 	font-weight: bold;
 }
 
 .cookie-subtitle {
+	/* Typography */
 	font-weight: regular;
 	font-size: 0.85rem;
+
+	/* Spacing */
 	padding: 1rem 0rem;
 }
 
 .cookie-button {
-	border-style: none;
-	padding: 0.5rem 1rem;
-	color: #4f2626;
+	/* Typography */
 	font-family: var(--poppins);
 	font-size: 0.85rem;
+
+	/* Spacing */
+	padding: 0.5rem 1rem;
+
+	/* Border */
+	border-style: none;
 	border-radius: 0.3rem;
+
+	color: #4f2626;
+	cursor: pointer;
 }
 
 @media (min-width: 576px) {
 	.cookie-container {
-		width: 430px;
+		/* Size */
+		width: 400px;
 		height: 200px;
-	}
 
-	.cookie {
-		width: 120px;
+		/* Spacing */
+		padding: 2rem;
 	}
 }
